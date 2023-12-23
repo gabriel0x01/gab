@@ -2,9 +2,12 @@
 <html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Gabriel Marques</title>
+<title>Compilado e Indicações</title>
 
 <head>
+    <link rel="shortcut icon" href="https://avatars.githubusercontent.com/u/59850744?v=4"
+        style="height:32px; width:32px" />
+
     <style>
         * {
             box-sizing: border-box;
@@ -19,18 +22,25 @@
             box-sizing: border-box;
         }
 
+        .header .text:hover,
+        .header .terminal-icon:hover {
+            cursor: pointer;
+            opacity: 80%;
+        }
+
+
         .header {
             display: flex;
             align-items: center;
             padding: 16px;
             background-color: #1c1f22;
+
         }
 
         .header .text {
             font-weight: 600;
             color: rgb(255, 255, 255);
             white-space: nowrap;
-            cursor: pointer;
             display: flex;
             align-items: center;
             margin-left: 8px;
@@ -55,8 +65,10 @@
             background-position: center;
             margin-left: auto;
 
+        }
 
-
+        .header .github-icon:hover {
+            opacity: 80%;
         }
 
         .container {
@@ -86,11 +98,24 @@
             overflow: auto;
             font-weight: 500;
             font-size: 16px;
-            color: rgb(31, 35, 40);
+            color: rgb(38, 43, 49);
         }
 
         ul a {
             text-decoration: none;
+            color: rgb(72, 78, 83);
+            font-size: 14px;
+        }
+
+        ul a:hover {
+            opacity: 80%;
+        }
+
+        ul a img:hover {
+            transform: scale(1.2);
+            opacity: 90%;
+
+
         }
 
         @media (max-width: 600px) {
@@ -127,22 +152,126 @@
     <div class="container">
         <div class="content">
 
-            <div class="item"> 📚 Livros recomendados </div>
-            <div class="item"> 💻 Equipamentos recomendados </div>
-            <div class="item"> 🎓 Cursos recomendados </div>
-            <div class="item"> 📄 Artigos e sites recomendados
-                <ul><a href="https://www.tabnews.com.br/gabrielmarques/entendendo-react-com-lego"> - Entendendo React
-                        com
-                        LEGO. 🟥🟦🟨</a></ul>
-                <ul><a
-                        href="https://www.tabnews.com.br/gabrielmarques/o-futuro-da-inteligencia-artificial-maliciosa-se-desenvolve-rapidamente-e-contribui-com-o-aumento-de-cibercrimes-que-usam-ferramentas-baseadas-em-ia-generativa">
-                        - O
-                        futuro da Inteligência Artificial maliciosa se desenvolve rapidamente, e
-                        contribui com o aumento de cibercrimes que usam ferramentas baseadas em IA generativa. 🤖</a>
+            <div class="item"> 📚 Livros, PDFs e eBooks.
+                <ul>
+                    <a target="_blank"
+                        href="https://www.amazon.com.br/Java-Guia-Programador-Atualizado-edi%25C3%25A7%25C3%25A3o/dp/6586057574/ref=tmm_pap_swatch_0?_encoding=UTF8&amp;qid=1703343761&amp;sr=8-1&_encoding=UTF8&tag=gabrielmar075-20&linkCode=ur2&linkId=b0cb83880505e6dbbde14602d7bd33c4&camp=1789&creative=9325"
+                        style="display:flex; align-items: center;">
+                        <img src="https://m.media-amazon.com/images/I/61AOlD477dS._SY466_.jpg"
+                            alt="Capa do livro Java - Guia do Programador"
+                            style="width:50px;height:60px; margin-right: 8px;">
+                        Java
+                        - Guia do Programador</a>
                 </ul>
+
+
+                <ul>
+                    <a target="_blank"
+                        href="https://www.amazon.com.br/Code-Language-Computer-Hardware-Software-ebook/dp/B0B123P5GV/ref=tmm_kin_swatch_0?_encoding=UTF8&amp;qid=1703345608&amp;sr=8-1&_encoding=UTF8&tag=gabrielmar075-20&linkCode=ur2&linkId=9912f9155b05b11ba62a889e0aeab2f7&camp=1789&creative=9325"
+                        style="display:flex; align-items: center;">
+                        <img src="https://m.media-amazon.com/images/I/51m2FRQ+QYL._SY466_.jpg"
+                            alt="Capa do livro Code: The Hidden Language of Computer Hardware and Software"
+                            style="width:50px;height:60px; margin-right: 8px;">
+                        Code:
+                        The Hidden Language of Computer Hardware and Software</a>
+                </ul>
+
+
+                <ul>
+                    <a target="_blank"
+                        href="https://www.amazon.com.br/C%25C3%25B3digo-limpo-Robert-C-Martin/dp/8576082675/ref=sr_1_3?__mk_pt_BR=%25C3%2585M%25C3%2585%25C5%25BD%25C3%2595%25C3%2591&amp;crid=2XNB8VP1C4YF3&amp;keywords=Code%253A+a+linguagem&amp;qid=1703345604&amp;sprefix=code+a+linguagem%252Caps%252C166&amp;sr=8-3&_encoding=UTF8&tag=gabrielmar075-20&linkCode=ur2&linkId=90f2cd3d688af547a9534090d2b7fae2&camp=1789&creative=9325"
+                        style="display:flex; align-items: center;">
+                        <img src="https://m.media-amazon.com/images/I/71dH97FwGbL._SY466_.jpg"
+                            alt="Capa do livro Código limpo: habilidades práticas do Agile software"
+                            style="width:50px;height:60px; margin-right: 8px;">Código
+                        limpo: habilidades práticas do Agile software</a>
+                </ul>
+            </div>
+            <div class=" item"> 💻 Equipamentos e produtos.
+                <ul>
+                    <a target="_blank"
+                        href="https://www.amazon.com.br/Monitor-LG-Widescreen-24MP400-23-8-Preto/dp/B09HYTW34G/ref=sr_1_1?__mk_pt_BR=%25C3%2585M%25C3%2585%25C5%25BD%25C3%2595%25C3%2591&amp;crid=38OBRU2J8J6SL&amp;keywords=LG+Widescreen+24MP400&amp;qid=1703347249&amp;s=computers&amp;sprefix=lg+widescreen+24mp400%252Ccomputers%252C170&amp;sr=1-1&amp;ufe=app_do%253Aamzn1.fos.25548f35-0de7-44b3-b28e-0f56f3f96147&_encoding=UTF8&tag=gabrielmar075-20&linkCode=ur2&linkId=fcff5386cf221540d7a31bf6de55be65&camp=1789&creative=9325"
+                        style="display:flex; align-items: center;">
+                        <img src="https://m.media-amazon.com/images/I/61xI5s8EMmL._AC_SX466_.jpg"
+                            alt="Monitor LG Widescreen 24MP400-23.8', Preto"
+                            style="width:60px;height:60px; margin-right: 8px;">
+                        Monitor
+                        LG Widescreen - 23.8'</a>
+                </ul>
+
+                <ul>
+                    <a target="_blank"
+                        href="https://www.amazon.com.br/Teclado-mouse-sem-fio-Dell/dp/B09169YJ1V/ref=sr_1_1?crid=3GK2DRPV2IK20&amp;keywords=teclado+e+mouse+dell&amp;qid=1703347391&amp;s=computers&amp;sprefix=teclado+e+mouse%252Ccomputers%252C187&amp;sr=1-1&amp;ufe=app_do%253Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74&_encoding=UTF8&tag=gabrielmar075-20&linkCode=ur2&linkId=42cf352116a8edc850993351294a578e&camp=1789&creative=9325"
+                        style="display:flex; align-items: center;">
+                        <img src="https://m.media-amazon.com/images/I/51sYDQq14QL._AC_SX466_.jpg" alt="Teclado
+                            e mouse sem fio Dell Pro" style="width:60px;height:60px; margin-right: 8px;">
+                        Teclado
+                        e mouse sem fio Dell Pro</a>
+                </ul>
+
+                <ul>
+                    <a target="_blank"
+                        href="https://www.amazon.com.br/Notebook-Lenovo-IdeaPad-R7-5700U-82MF000GBR/dp/B0CC6HBFRZ/ref=sr_1_1?__mk_pt_BR=%25C3%2585M%25C3%2585%25C5%25BD%25C3%2595%25C3%2591&amp;crid=2LDRC6L1K8OOA&amp;keywords=lenovo+ideapad+3+ryzen+7&amp;qid=1703347651&amp;refinements=p_n_feature_twenty-five_browse-bin%253A23716003011%252Cp_n_feature_fifteen_browse-bin%253A21354457011%252Cp_89%253ALenovo&amp;rnid=18120432011&amp;s=computers&amp;sprefix=lenovo+ideapad+3+ryzen7%252Ccomputers%252C159&amp;sr=1-1&amp;ufe=app_do%253Aamzn1.fos.25548f35-0de7-44b3-b28e-0f56f3f96147&_encoding=UTF8&tag=gabrielmar075-20&linkCode=ur2&linkId=976437c73190b461b36a7aa9f2334373&camp=1789&creative=9325"
+                        style="display:flex; align-items: center;">
+                        <img src="https://m.media-amazon.com/images/I/61CoTVgs7pL._AC_SX466_.jpg" alt="Notebook
+                        Lenovo Ultrafino IdeaPad 3 Ryzen 7" style="width:60px;height:60px; margin-right: 8px;">
+                        Notebook
+                        Lenovo Ultrafino IdeaPad 3 Ryzen 7 </a>
+                </ul>
+            </div>
+            <div class="item"> 🎓 Cursos, canais e vídeos.
+                <ul>
+                    <a target="_blank" href="https://desecsecurity.com/cursos"
+                        style="display:flex; align-items: center;">
+                        <img src="https://desecsecurity.com/academy/uploads/thumnb_npp_jun2021.jpg"
+                            alt="Desec Treinamentos" style="width:60px;height:50px; margin-right: 8px;">
+                        Desec - Treinamentos em segurança </a>
+                </ul>
+                <ul>
+                    <a target="_blank" href="https://curso.dev/" style="display:flex; align-items: center;">
+                        <img src="https://i.imgur.com/is9NMCp.png" alt="Curso de programação"
+                            style="width:60px;height:50px; margin-right: 8px;">
+                        curso.dev - Filipe Deschamps </a>
+                </ul>
+
+                <ul>
+                    <a target="_blank" href="https://www.youtube.com/@Akitando"
+                        style="display:flex; align-items: center;">
+                        <img src="https://yt3.googleusercontent.com/ytc/AIf8zZS6sRCEPxznP2DLa9XRK9sQt2VY6W3qLPfKU_XlT9c=s176-c-k-c0x00ffffff-no-rj"
+                            alt="Fabio Akita" style="width:60px;height:50px; margin-right: 8px;">
+                        Fabio Akita
+                    </a>
+                </ul>
+
+            </div>
+            <div class="item"> 📄 Conteúdos, artigos e sites.
+                <ul style="list-style-type: circle;">
+                    <li> <a href="https://www.tabnews.com.br/"> Tabnews - Conteúdos com valor concreto para quem
+                            trabalha com tecnologia</a> </li>
+                </ul>
+                <ul style="list-style-type: circle;">
+                    <li> <a href="https://www.tabnews.com.br/gabrielmarques/entendendo-react-com-lego"> Entendendo
+                            React
+                            com
+                            LEGO. 🟥🟦🟨</a> </li>
+                </ul>
+                <ul style="list-style-type: circle;">
+
+                    <li><a
+                            href="https://www.tabnews.com.br/gabrielmarques/o-futuro-da-inteligencia-artificial-maliciosa-se-desenvolve-rapidamente-e-contribui-com-o-aumento-de-cibercrimes-que-usam-ferramentas-baseadas-em-ia-generativa">
+                            O futuro da Inteligência Artificial maliciosa se desenvolve rapidamente, e
+                            contribui com o aumento de cibercrimes que usam ferramentas baseadas em IA generativa.
+                            🤖</a> </li>
+                </ul>
+            </div>
+            <div class="item">
+                💡Repositórios e códigos &lt;/&gt.
+
             </div>
         </div>
     </div>
+
+
 </body>
 
 </html>
